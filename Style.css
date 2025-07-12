@@ -1,0 +1,62 @@
+body {
+    font-family: 'Noto Sans Bengali', sans-serif;
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 10px;
+    background: #fff0f0;
+    color: #b22222;
+}
+
+header h1 {
+    text-align: center;
+    color: #b22222;
+    margin-bottom: 20px;
+}
+
+section {
+    margin-bottom: 30px;
+    background: #ffe6e6;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px #b22222aa;
+}
+
+form input, form select {
+    width: 100%;
+    padding: 8px;
+    margin: 8px 0;
+    border: 1px solid #b22222;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+form button {
+    width: 100%;
+    background-color: #b22222;
+    color: white;
+    font-weight: bold;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #800000;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #b22222;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #b22222;
+    color: white;
+}
